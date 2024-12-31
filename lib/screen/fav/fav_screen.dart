@@ -15,16 +15,15 @@ class _FavScreenState extends State<FavScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final favouriteProvider = Provider.of<FavouriteItemProvider>(context);
-    print("build");
+    // final favouriteProvider = Provider.of<FavouriteItemProvider>(context);
+    // print("build");
     return Scaffold(
       appBar: AppBar(
         title:const Text('Favorites App'),
         actions: [
-           InkWell(
+          InkWell(
             onTap:(){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>const MyFavouriteItemScreen()));
-
             },
             child:const Icon(Icons.favorite)
           ),
