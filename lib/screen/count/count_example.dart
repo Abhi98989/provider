@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../../provider/count_provider.dart';
 
 class CountExample extends StatefulWidget {
@@ -11,7 +9,6 @@ class CountExample extends StatefulWidget {
   @override
   State<CountExample> createState() => _CountExampleState();
 }
-
 class _CountExampleState extends State<CountExample> {
   @override
   void initState() {
