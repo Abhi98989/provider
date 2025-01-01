@@ -28,7 +28,7 @@ class _ColorSliderState extends State<ColorSlider> {
                 return Slider(
                 min: 0.0,
                 max: 1.0,
-                // divisions: 10,
+                divisions: 10,
                 value: value.value, onChanged:(val){
                 value.setdoubleValue(val);
               });
